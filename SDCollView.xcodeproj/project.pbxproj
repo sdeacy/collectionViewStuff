@@ -15,13 +15,19 @@
 		AF9776C41A2E3A0B00B39831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9776C31A2E3A0B00B39831 /* AppDelegate.m */; };
 		AF9776C71A2E3A0B00B39831 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9776C51A2E3A0B00B39831 /* Main_iPhone.storyboard */; };
 		AF9776CA1A2E3A0B00B39831 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9776C81A2E3A0B00B39831 /* Main_iPad.storyboard */; };
-		AF9776CD1A2E3A0B00B39831 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9776CC1A2E3A0B00B39831 /* ViewController.m */; };
 		AF9776CF1A2E3A0C00B39831 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9776CE1A2E3A0C00B39831 /* Images.xcassets */; };
 		AF9776D61A2E3A0C00B39831 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9776D51A2E3A0C00B39831 /* XCTest.framework */; };
 		AF9776D71A2E3A0C00B39831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9776B31A2E3A0B00B39831 /* Foundation.framework */; };
 		AF9776D81A2E3A0C00B39831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9776B71A2E3A0B00B39831 /* UIKit.framework */; };
 		AF9776E01A2E3A0C00B39831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF9776DE1A2E3A0C00B39831 /* InfoPlist.strings */; };
 		AF9776E21A2E3A0C00B39831 /* SDCollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9776E11A2E3A0C00B39831 /* SDCollViewTests.m */; };
+		AF9776ED1A2E51D100B39831 /* MyCollectionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9776EC1A2E51D100B39831 /* MyCollectionViewViewController.m */; };
+		AF9776F01A2E526400B39831 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9776EF1A2E526400B39831 /* MyCollectionViewCell.m */; };
+		AF9776F71A2E571300B39831 /* chevy_volt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9776F21A2E571300B39831 /* chevy_volt.jpg */; };
+		AF9776F81A2E571300B39831 /* mini_clubman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9776F31A2E571300B39831 /* mini_clubman.jpg */; };
+		AF9776F91A2E571300B39831 /* smart_fortwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9776F41A2E571300B39831 /* smart_fortwo.jpg */; };
+		AF9776FA1A2E571300B39831 /* toyota_venza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9776F51A2E571300B39831 /* toyota_venza.jpg */; };
+		AF9776FB1A2E571300B39831 /* volvo_s60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9776F61A2E571300B39831 /* volvo_s60.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +53,21 @@
 		AF9776C31A2E3A0B00B39831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF9776C61A2E3A0B00B39831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		AF9776C91A2E3A0B00B39831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		AF9776CB1A2E3A0B00B39831 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF9776CC1A2E3A0B00B39831 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF9776CE1A2E3A0C00B39831 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF9776D41A2E3A0C00B39831 /* SDCollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDCollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9776D51A2E3A0C00B39831 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AF9776DD1A2E3A0C00B39831 /* SDCollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDCollViewTests-Info.plist"; sourceTree = "<group>"; };
 		AF9776DF1A2E3A0C00B39831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF9776E11A2E3A0C00B39831 /* SDCollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCollViewTests.m; sourceTree = "<group>"; };
+		AF9776EB1A2E51D100B39831 /* MyCollectionViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewViewController.h; sourceTree = "<group>"; };
+		AF9776EC1A2E51D100B39831 /* MyCollectionViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewViewController.m; sourceTree = "<group>"; };
+		AF9776EE1A2E526400B39831 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		AF9776EF1A2E526400B39831 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		AF9776F21A2E571300B39831 /* chevy_volt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chevy_volt.jpg; sourceTree = "<group>"; };
+		AF9776F31A2E571300B39831 /* mini_clubman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini_clubman.jpg; sourceTree = "<group>"; };
+		AF9776F41A2E571300B39831 /* smart_fortwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smart_fortwo.jpg; sourceTree = "<group>"; };
+		AF9776F51A2E571300B39831 /* toyota_venza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toyota_venza.jpg; sourceTree = "<group>"; };
+		AF9776F61A2E571300B39831 /* volvo_s60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volvo_s60.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9776B61A2E3A0B00B39831 /* CoreGraphics.framework in Frameworks */,
 				AF9776B81A2E3A0B00B39831 /* UIKit.framework in Frameworks */,
+				AF9776B61A2E3A0B00B39831 /* CoreGraphics.framework in Frameworks */,
 				AF9776B41A2E3A0B00B39831 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,14 +127,17 @@
 		AF9776B91A2E3A0B00B39831 /* SDCollView */ = {
 			isa = PBXGroup;
 			children = (
+				AF9776F11A2E571300B39831 /* carImages */,
 				AF9776C21A2E3A0B00B39831 /* AppDelegate.h */,
 				AF9776C31A2E3A0B00B39831 /* AppDelegate.m */,
 				AF9776C51A2E3A0B00B39831 /* Main_iPhone.storyboard */,
+				AF9776EE1A2E526400B39831 /* MyCollectionViewCell.h */,
+				AF9776EF1A2E526400B39831 /* MyCollectionViewCell.m */,
 				AF9776C81A2E3A0B00B39831 /* Main_iPad.storyboard */,
-				AF9776CB1A2E3A0B00B39831 /* ViewController.h */,
-				AF9776CC1A2E3A0B00B39831 /* ViewController.m */,
 				AF9776CE1A2E3A0C00B39831 /* Images.xcassets */,
 				AF9776BA1A2E3A0B00B39831 /* Supporting Files */,
+				AF9776EB1A2E51D100B39831 /* MyCollectionViewViewController.h */,
+				AF9776EC1A2E51D100B39831 /* MyCollectionViewViewController.m */,
 			);
 			path = SDCollView;
 			sourceTree = "<group>";
@@ -153,6 +169,18 @@
 				AF9776DE1A2E3A0C00B39831 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF9776F11A2E571300B39831 /* carImages */ = {
+			isa = PBXGroup;
+			children = (
+				AF9776F21A2E571300B39831 /* chevy_volt.jpg */,
+				AF9776F31A2E571300B39831 /* mini_clubman.jpg */,
+				AF9776F41A2E571300B39831 /* smart_fortwo.jpg */,
+				AF9776F51A2E571300B39831 /* toyota_venza.jpg */,
+				AF9776F61A2E571300B39831 /* volvo_s60.jpg */,
+			);
+			path = carImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +261,12 @@
 			files = (
 				AF9776CA1A2E3A0B00B39831 /* Main_iPad.storyboard in Resources */,
 				AF9776CF1A2E3A0C00B39831 /* Images.xcassets in Resources */,
+				AF9776FA1A2E571300B39831 /* toyota_venza.jpg in Resources */,
 				AF9776C71A2E3A0B00B39831 /* Main_iPhone.storyboard in Resources */,
+				AF9776F81A2E571300B39831 /* mini_clubman.jpg in Resources */,
+				AF9776F71A2E571300B39831 /* chevy_volt.jpg in Resources */,
+				AF9776FB1A2E571300B39831 /* volvo_s60.jpg in Resources */,
+				AF9776F91A2E571300B39831 /* smart_fortwo.jpg in Resources */,
 				AF9776BE1A2E3A0B00B39831 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9776CD1A2E3A0B00B39831 /* ViewController.m in Sources */,
 				AF9776C41A2E3A0B00B39831 /* AppDelegate.m in Sources */,
+				AF9776ED1A2E51D100B39831 /* MyCollectionViewViewController.m in Sources */,
+				AF9776F01A2E526400B39831 /* MyCollectionViewCell.m in Sources */,
 				AF9776C01A2E3A0B00B39831 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
